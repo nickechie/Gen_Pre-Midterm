@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Great+Vibes&family=Rhodium+Libre&family=Righteous&display=swap');
+
+
 body {
   margin: 0;
   padding: 0;
-  background-image: url(../img/bg\ 1.jpg);
+  background-image: url(../images/huhu\ \(1\).jpg);
   background-size: cover;
 }
 
@@ -14,12 +16,16 @@ body {
 
 .title-container {
   display: inline;
+  font-family: Paytone One;
+  width: 400;
+
 }
 
 .title-container > h1 {
   display: inline;
   font-size: 50px;
   margin-block: 0px;
+  
 }
 
 .title-container > h1:first-child {
@@ -34,7 +40,8 @@ body {
 .links {
   display: inline;
   font-size: 30px;
-  margin-left: 10em;
+  margin-left: 5em;
+  font-weight: 400;
 }
 .links > ul {
   list-style: none;
@@ -48,6 +55,9 @@ body {
   margin-block: 0px;
   font-family: 'Montserrat', sans-serif;
   color: white;    /*text color*/
+}
+#home{
+  color: #000;
 }
 
 .links > ul > li:first-child {
@@ -133,30 +143,35 @@ body {
 }
 .content-block img {
   float: left; /* Float image to the left */
-  width: 120px;
-  height: 120px;
+  width: 327px;
+  height: 302px;
   margin-right: 20px; /* Space between image and text */
   object-fit: contain;
 }
 .content-block .text-content {
   overflow: hidden; /* Contains the text next to the floated image */
 }
+
 .content-block .text-content h3 {
-  font-size: 24px;
-  color: #5D5754;
+  font-family: Righteous;
+  font-size: 48px;
+  color: #000;
   margin-top: 0;
   margin-bottom: 5px;
 }
 .content-block .text-content p {
-  font-size: 16px;
-  color: #777;
-  line-height: 1.6; /* Ensure consistent line height */
+  font-size: 26px;
+  color: #000;
+  line-height: 1.6;
+   /* Ensure consistent line height */
 }
 .trends-column {
   display: inline-block; /* Treat as a column */
   vertical-align: top;
-  width: 20%;
-  height: 20%;
+  width: 436px;
+  height: 1,058px;
+  margin-top: 97px;
+  margin-left: 95px;
   padding: 0;
   border-radius: 0;
   text-align: center;
@@ -167,15 +182,16 @@ body {
   border-radius: 8px;
 }
 .trends-column h4 {
-  font-size: 22px;
+  font-size: 48px;
   font-family: 'Righteous', sans-serif;
   color: #FFFFFF;
   text-align: center;
   padding: 8px 15px;
   padding-top: 10px;
-  border-radius: 5px;
+  border-radius: 0%;
   margin: -40px auto 20px auto;
-  width: 100px;
+  width: 292px;
+  height: 79px;
   display: block;
 
   /* NEW: Rectangle background wrap for "TRENDS" title */
@@ -184,16 +200,26 @@ body {
 
 .trend-item img{
   margin-bottom: 15px;
-  width: 120px;
-  height: 120px;
+  width: 260px;
+  height: 263px;
   padding: 0; /* Ensures no extra padding */
+}
+#trends{
+  width: 269px;
+  height: 99px;
+  margin-top: 1896px ;
+
 }
 
 .trend-item h5 {
+  font-family: Rhodium Libre;
   font-size: 18px;
-  color: #5D5754;
+  color: #000;
   margin-block: 0;
+  width: 209PX;
+  
 }
+.trend-item 
 
 .trend-item p {
   font-size: 14px;
@@ -227,14 +253,21 @@ body {
 .health-quote {
   display: inline-block;
   vertical-align: middle;
-  font-family: 'Great Vibes', cursive;
-  font-size: 70px;
-  font-style: italic;
-  max-width: 600px;
+  font-family: Great Vibes;
+  font-size: 150px;
+  max-width: 1000px;
   line-height: 1.3;
   margin: 0;
   color: #8D3409;
 }
+.health-quote .health-word {
+  font-family: 'Glass Antiqua';
+  font-size: 110px;
+  color: #8D3409;
+  line-height: 1;
+  display: inline;
+}
+  
 /* Footer */
 .footer {
   background-color: #B09464;
