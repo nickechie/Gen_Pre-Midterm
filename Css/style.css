@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Great+Vibes&family=Rhodium+Libre&family=Righteous&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Great+Vibes&family=Paytone+One&family=Rhodium+Libre&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alike+Angular&family=Glass+Antiqua&display=swap');
 body {
   margin: 0;
   padding: 0;
@@ -16,16 +15,13 @@ body {
 
 .title-container {
   display: inline;
-  font-family: Paytone One;
-  width: 400;
-
 }
 
 .title-container > h1 {
   display: inline;
   font-size: 50px;
   margin-block: 0px;
-  
+  font-family: Paytone One;
 }
 
 .title-container > h1:first-child {
@@ -40,31 +36,30 @@ body {
 .links {
   display: inline;
   font-size: 30px;
-  margin-left: 5em;
-  font-weight: 400;
+  margin-left: 10em;
 }
 .links > ul {
   list-style: none;
   display: inline;
   margin-block: 0px;
+  
 }
 
 .links > ul > li {
   text-align: center;
+  font-family: Abel;
   display: inline;
   margin-block: 0px;
-  font-family: 'Montserrat', sans-serif;
-  color: white;    /*text color*/
-}
-#home{
-  color: #000;
+  color: white;
+  position: relative;
+  bottom: 10px;   
 }
 
 .links > ul > li:first-child {
   background: #ffe999;
   padding-top: 50px;
-  padding-bottom: 16.5px;
-  color: #B09464; /* Text color for active */
+  padding-bottom: 25px;
+  color: #070707; 
 
 }
 
@@ -75,7 +70,7 @@ body {
 .search-icon-container > img {
   width: 50px;
   display: inline;
-  margin-left: 10em;
+  margin-left: 18em;
 }
 
 /* Banner Section */
@@ -83,16 +78,15 @@ body {
 .BetHealth > img{
   display: block;
   margin: 0 auto 0 auto ;
-  width: 979px;
-  height: 758px;
+  width: 70%;
 }
 
 .banner-section {
   position: relative;
   width: 100%;
   height: 480px;
-  overflow: hidden; /* Ensures content stays within bounds */
-  text-align: center; /* Centers its contents horizontally */
+  overflow: hidden;
+  text-align: center;
 }
 
 .banner-section .banner-bg {
@@ -102,17 +96,17 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    z-index: 1; /* Puts it behind the main text image */
+    z-index: 1; 
 }
 .banner-main-text-image {
-  position: absolute; /* Position it absolutely within the banner-section */
+  position: absolute; 
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); /* Shift it back by half its own width/height to truly center */
-  width: 60%; /* Adjust size relative to banner. Your image seems wide. */
-  max-width: 600px; /* Example max width based on your image crop */
+  transform: translate(-50%, -50%);
+  width: 60%;
+  max-width: 600px; 
   height: auto;
-  z-index: 2; /* Ensure it's above the background */
+  z-index: 2; 
 }
 
 /* Main Content Area */
@@ -128,103 +122,102 @@ body {
   vertical-align: top;
   width: 55%;
   text-align: left;
-  margin-right: 30px;
+  margin-right: 300px;
   padding: 20px 0;
 }
 .content-block {
-  display: flow-root; /* To contain floated elements later. Or use clearfix pattern */
-  overflow: hidden; /* Clear floats */
+  display: flow-root;
+  overflow: hidden; 
   margin-bottom: 30px;
   background-color: transparent;
-  padding: 0px;
+  padding: 0px; 
   border-radius: 0px;
   box-shadow: none;
    
 }
 .content-block img {
-  float: left; /* Float image to the left */
+  float: left; 
   width: 327px;
   height: 302px;
-  margin-right: 20px; /* Space between image and text */
+  margin-right: 30px;
   object-fit: contain;
 }
 .content-block .text-content {
-  overflow: hidden; /* Contains the text next to the floated image */
+  overflow: hidden; 
 }
-
 .content-block .text-content h3 {
-  font-family: Righteous;
-  font-size: 48px;
-  color: #000;
+  font-size: 35px;
+  font-family: 'Righteous';
+  color: #000000;
   margin-top: 0;
   margin-bottom: 5px;
+  font-weight: 400;
 }
 .content-block .text-content p {
-  font-size: 26px;
-  color: #000;
-  line-height: 1.6;
-   /* Ensure consistent line height */
+  font-size: 26px;  
+  font-family: 'Rhodium Libre';
+  color: #000000;
+  line-height: 1.6; 
+  font-weight: 400;
+  
 }
 .trends-column {
-  display: inline-block; /* Treat as a column */
+  display: inline-block; 
   vertical-align: top;
-  width: 436px;
-  height: 1,058px;
-  margin-top: 97px;
-  margin-left: 95px;
+  width: 20%;
+  height: 30%;
   padding: 0;
   border-radius: 0;
   text-align: center;
-
-  /* NEW: Background color for the entire TRENDS list area */
   background-color: #FFF8DC;
-  padding: 20px 15px;
+  padding: 20px 15px 0px;
   border-radius: 8px;
 }
 .trends-column h4 {
-  font-size: 48px;
-  font-family: 'Righteous', sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+  font-family: 'Righteous';
   color: #FFFFFF;
   text-align: center;
   padding: 8px 15px;
   padding-top: 10px;
-  border-radius: 0%;
   margin: -40px auto 20px auto;
-  width: 292px;
-  height: 79px;
+  width: 200px;
   display: block;
-
-  /* NEW: Rectangle background wrap for "TRENDS" title */
   background-color: #B09464;
 }
 
-.trend-item img{
-  margin-bottom: 15px;
-  width: 260px;
-  height: 263px;
-  padding: 0; /* Ensures no extra padding */
+.trend-item {
+  margin-bottom: 0px;
+  padding: 0; 
 }
-#trends{
-  width: 269px;
-  height: 99px;
-  margin-top: 1896px ;
 
-}
 
 .trend-item h5 {
-  font-family: Rhodium Libre;
-  font-size: 18px;
-  color: #000;
+  font-family: 'Rhodium Libre';
+  font-size: 28px;
+  color: #000000;
+  margin-right: 250px;
   margin-block: 0;
-  width: 209PX;
-  
+  font-style: normal;
+  padding-top: 30px;
+  padding-left: 15px;
+  font-weight: 400;
 }
-.trend-item 
 
 .trend-item p {
+  font-family: Rhodium Libre;
   font-size: 14px;
-  color: #999;
+  color: #000000;
   margin-top: 5px;
+}
+.trend-item img {
+  padding: 0;
+}
+#trend-img{
+  width: 200px;
+  height: 99px;
+  margin-bottom: 0px;
 }
 
 /* Quote Section */
@@ -232,15 +225,7 @@ body {
   text-align: center;
   padding: 60px 40px;
   background-color: #FFF8DC;
-  color: #5D5754;
-}
-.quote-section img{
-    width: 452px;
-    height: 453px;
-    margin-top: 207px;
-    margin-left: 86px;
-    border-radius: 50%;
-
+  color: #8D3409;
 }
 .just-breathe-logo {
   display: inline-block;
@@ -258,7 +243,6 @@ body {
   max-width: 1000px;
   line-height: 1.3;
   margin: 0;
-  color: #8D3409;
 }
 .health-quote .health-word {
   font-family: 'Glass Antiqua';
@@ -267,13 +251,16 @@ body {
   line-height: 1;
   display: inline;
 }
-  
 /* Footer */
 .footer {
+  font-family: 'Abel';
   background-color: #B09464;
   color: #FFF;
   text-align: center;
   padding: 20px;
-  font-size: 14px;
-  border-radius: 0;
+  font-size: 36px;
+  font-weight: 400;
+}
+#bottom-img{
+  border-radius: 50%;
 }
